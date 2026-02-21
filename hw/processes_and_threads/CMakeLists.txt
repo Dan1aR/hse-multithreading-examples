@@ -1,0 +1,7 @@
+add_library(hw_processes_and_threads_lib INTERFACE)
+target_include_directories(hw_processes_and_threads_lib INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+
+add_executable(hw_processes_and_threads main.cpp)
+target_link_libraries(hw_processes_and_threads PRIVATE Threads::Threads hw_processes_and_threads_lib)
+
+add_subdirectory(test)
