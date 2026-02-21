@@ -12,3 +12,4 @@ include_directories(include)
 
 add_subdirectory(processes_and_threads)
 add_subdirectory(synchronization_primitives)
+add_subdirectory(hw)
