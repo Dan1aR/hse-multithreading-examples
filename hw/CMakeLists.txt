@@ -1,1 +1,2 @@
 add_subdirectory(processes_and_threads)
+add_subdirectory(ipc)
